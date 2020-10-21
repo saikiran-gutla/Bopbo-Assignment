@@ -1,0 +1,8 @@
+The syntax of the command is incorrect.
+bopbo/
+.idea/
+media/
+BopboAssignment/__pycache__/
+textus/__pycache__/
+textus/migrations/
+db.sqlite3
