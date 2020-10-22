@@ -14,8 +14,7 @@
 </head>
 <body>
 <!-- Default form register -->
-<form class="text-center border border-light p-5" action='{%url "textus"%}' method='POST' enctype="multipart/form-data"
-      autocomplete="off">
+<form class="text-center border border-light p-5" action='{%url "textus"%}' method='POST' enctype="multipart/form-data">
     {% csrf_token %}
     {% if messages %}
     {% for message in messages %}

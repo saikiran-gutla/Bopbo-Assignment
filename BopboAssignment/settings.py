@@ -114,10 +114,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = "/static/"
-MEDIA_URL = "/media/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
+MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 GOOGLE_CREDENTIALS = {
-    'access_token': "Bearer ya29.a0AfH6SMDMgsYOYPnLZZxMHG39En__6N2KOLBUNIvtNAoLfxwuRoW3FpYhVMoSNQWfyF5edllcqWBnC_pxVQ2d6GFTsGmrSFXpEytbEUQCob4t6hERNFIBBltqX-QDOyNzb396AR4FTLhSL3DyYA30V8ysUsW2zu91_NE"
+    'access_token': "Bearer ya29.a0AfH6SMB4DDWWSzycI-aIXk0OteR9v4dPSNr_ceBK3-Jx_0vxkEFR3DDvhhhMBokCU72Ag5XWg6gX1zxd_nLvJESN9bZU1oz2ZxOQEHj6XQnvex6m_pXalig6TZtbIG71tFpUnTljrKoiajJUt2m5vaeP2xY-Rol8NzY"
 }
