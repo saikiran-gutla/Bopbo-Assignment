@@ -13,3 +13,4 @@ Create VirtualEnv : virtualenv venv
 Install requirements : Navigate to~~~~ requirements file path and execute the following command. pip install -r requirements.txt
 
 Note: Most of the unnecessary files are ignored in the .gitignore file, they are generated automatically on running the project.
+For security constraints , specified temporary authentication code for gdrive.
